@@ -52,7 +52,7 @@ function App() {
       event.preventDefault();
       setQuery("");
       setWeather({ ...weather, loading: true });
-      const apiKey = "b03a640e5ef6980o4da35b006t5f2942";
+      const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
       const url = `https://api.shecodes.io/weather/v1/current?query=${query}&key=${apiKey}`;
 
       await axios
